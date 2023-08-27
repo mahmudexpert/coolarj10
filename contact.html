@@ -43,28 +43,47 @@
 
 </head>
 <body>
-    <div class="common_title text-center">
-        <h2 class="my-5">Contact Us</h2>
+    <div class="common_title text-center my-5">
+       <div class="container pb-3 text-center">
+         <h2 class="pb-2">Contact Us</h2>
+         <p>Have a question? Need a quote? Need advice? Feel free to reach out!</p>
+            <a href="mailto:info@fremont3dprinting.com">info@fremont3dprinting.com</a>
+       </div>
      </div>
 
-<form action="https://formspree.io/f/xgejkpea" method="post">
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="name" required>
-
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
-
-    <label for="phone">Phone:</label>
-    <input type="tel" id="phone" name="phone">
-
-    <label for="file">Choose File:</label>
-    <input type="file" id="file" name="file">
-
-    <label for="message">Message:</label>
-    <textarea id="message" name="message" rows="4" required></textarea>
-
-    <input type="submit" value="Submit">
-</form>
+    <div class="container">
+      <div class="row">
+         <div class="col-md-6">
+              <div class="address">
+               <h3>Operations based out of Fremont, CA</h3>
+              </div>
+            <img class="img-fluid" src="assets/images/Google-maps.png" alt="">
+         </div>
+         <div class="col-md-6">
+            <div class="address">
+               <h3>Get In Touch</h3>
+              </div>
+            <form action="https://formspree.io/f/xgejkpea" method="post" enctype="multipart/form-data">
+               <label for="name">Name:</label>
+               <input type="text" id="name" name="name" required>
+           
+               <label for="email">Email:</label>
+               <input type="email" id="email" name="email" required>
+           
+               <label for="phone">Phone:</label>
+               <input type="tel" id="phone" name="phone">
+           
+               <label for="file">Choose File:</label>
+               <input type="file" id="file" name="upload">
+           
+               <label for="message">Message:</label>
+               <textarea id="message" name="message" rows="4" required></textarea>
+           
+               <input type="submit" value="Submit">
+           </form>
+         </div>
+      </div>
+    </div>
 
 
 
