@@ -246,6 +246,9 @@ a {
 .services_content h4 {
     font-weight: 600;
 }
+.intro_services.wow.fadeInUp p {
+    margin-bottom: 1rem;
+}
 .common_title h2 {
 	font-weight: 600;
  }
