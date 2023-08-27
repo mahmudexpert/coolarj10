@@ -246,9 +246,6 @@ a {
 .services_content h4 {
     font-weight: 600;
 }
-.intro_services.wow.fadeInUp p {
-    margin-bottom: 1rem;
-}
 .common_title h2 {
 	font-weight: 600;
  }
@@ -316,6 +313,9 @@ section.main_about {
 .common_title.text-center.my-5 a {
     color: #000;
     font-weight: 500;
+}
+.common_title.text-center.my-5 img {
+    width: 25%;
 }
 
 form {
@@ -406,6 +406,9 @@ input[type="email"],
 input[type="tel"],
 textarea {
     width: 100%;
+}
+.common_title.text-center.my-5 img {
+    width: 60%;
 }
 
 }
